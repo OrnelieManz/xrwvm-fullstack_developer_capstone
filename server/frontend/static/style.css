@@ -31,7 +31,7 @@ img{
     flex: 50%;
     margin-top: 2%;
     margin-bottom: 5%;
-    padding:20px;
+    justify-content: center;
 }
 
 .contact_text_one{
@@ -41,6 +41,7 @@ img{
     margin-bottom: 0%;
     font-weight: bold;
     border-left: solid black;
+    padding-left:60px;
 }
 
 .contact_text_two{
@@ -49,6 +50,7 @@ img{
     margin-top: 0%;
     margin-bottom: 0%;
     border-left: solid black;
+    padding-left:60px;
 }
 .container{
   justify-content: center;
