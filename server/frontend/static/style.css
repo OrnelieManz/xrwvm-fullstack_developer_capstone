@@ -3,6 +3,9 @@ img{
   align-self: center;
 }
 
+.embed-responsive .card-img-top {
+    object-fit: cover;
+}
 .card{
   border: rgb(103, 102, 105) 3px solid;
   display: flex;  
