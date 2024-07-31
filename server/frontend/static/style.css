@@ -26,6 +26,28 @@ img{
   padding:20px;
 }
 
+.column{
+    justify-content: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.contact_text_one{
+    color:blue;
+    text-align: center;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    font-weight: bold;
+    border-left: solid black;
+}
+
+.contact_text_two{
+    color:blue;
+    text-align: center;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    border-left: solid black;
+}
 .container{
   justify-content: center;
 }
