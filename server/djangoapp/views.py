@@ -40,8 +40,6 @@ def login_user(request):
 
 # Create a `logout_request` view to handle sign out request
 def logout_request(request):
-    # Get the user object based on session id in request
-    print("Log out the user `{}`".format(request.user.username))
     # Logout user in the request
     logout(request)
     username = request.user.username
