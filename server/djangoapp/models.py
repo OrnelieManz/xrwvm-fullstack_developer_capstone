@@ -41,7 +41,7 @@ class CarModel(models.Model):
         ('MINIVAN', 'Minivan'),
         # Add more choices as required
     ]
-    type = models.CharField(max_length=10, choices=CAR_TYPES, default='SUV')
+    type = models.CharField(max_length=30, choices=CAR_TYPES, default='SUV')
     year = models.IntegerField(default=2024,
         validators=[
             MaxValueValidator(2024),
