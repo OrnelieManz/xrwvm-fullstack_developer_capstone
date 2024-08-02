@@ -126,6 +126,7 @@ def add_review(request):
             return JsonResponse({"status":401,"message":"Error in posting review"})
     else:
         return JsonResponse({"status":403,"message":"Unauthorized"})
+
 #views for adding cars and corresponding models
 def get_cars(request):
     count = CarMake.objects.filter().count()
