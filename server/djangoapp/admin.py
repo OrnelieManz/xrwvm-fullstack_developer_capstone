@@ -1,10 +1,11 @@
 from django.contrib import admin
 from .models import CarMake, CarModel
 
+
 # Register models
 # CarModelInline class
 class CarModelInline(admin.StackedInline): 
-    model = CarModel 
+    model = CarModel
     extra = 5
 
 
