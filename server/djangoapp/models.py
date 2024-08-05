@@ -12,7 +12,7 @@ from django.core.validators import MaxValueValidator, MinValueValidator
 class CarMake(models.Model):
     name = models.CharField(max_length=100)
     description = models.TextField()
-    # noqa W293
+    
     def __str__(self):
         return self.name  # Return the name as the string representation
 
@@ -44,6 +44,6 @@ class CarModel(models.Model):
                                validators=[
                                    MaxValueValidator(2024),
                                    MinValueValidator(2015)])
-    # noqa W293
+    
     def __str__(self):
         return self.name  # Return the name as the string representation
